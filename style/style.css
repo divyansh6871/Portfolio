@@ -105,7 +105,79 @@ html {
     }
   }
 
+.nav-divyansh{
+  font-size: xx-large;
+  border-radius: 5px;
+  padding: 10px;
+}
+.nav-home{
+  color: white;
+  border-radius: 4px;
+  margin: 0 4px;
+  padding: 0 10px;
+  font-size: large;
+}
+.nav-divyansh:hover{
+  background-color: #000000;
+}
+.nav-education{
+  color: white;
+  border-radius: 4px;
+  margin: 0 4px;
+  padding: 0 10px;
+  font-size: large;
+}
+.nav-contact{
+  color: white;
+  border-radius: 4px;
+  margin: 0 4px;
+  padding: 0 10px;
+  font-size: large;
+}
+.nav-home:hover{
+  color: black;
+  animation: navitem;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;  
+}
+.nav-education:hover{
+  color: black;
+  animation: navitem;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;  
+}
+.nav-contact:hover{
+  color: black;
+  animation: navitem;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;  
+}
 
+@keyframes navitem {
+  0%{
+    background-color: rgb(108, 255, 255);
+  }
+  50%{
+    background-color: greenyellow;
+  }
+  100%{
+    background-color: rgb(255, 255, 100);
+  }
+}
+.mynavbar{
+  position: sticky;
+  top: 0px;
+}
+.mycard{
+  position: static;
+}
+
+/* .navhead{
+  float: left;
+}
+.navlist{
+  float: inline-end;
+} */
 
 
 
