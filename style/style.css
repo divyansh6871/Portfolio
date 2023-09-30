@@ -26,7 +26,7 @@ html {
   }
   .letter-E{
     animation: lettere;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
   @keyframes lettere {
@@ -42,7 +42,7 @@ html {
   }
   .letter-L{
     animation: letterl;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
   @keyframes letterl {
@@ -58,7 +58,7 @@ html {
   }
   .letter-C{
     animation: letterc;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
   @keyframes letterc {
@@ -74,7 +74,7 @@ html {
   }
   .letter-O{
     animation: lettero;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
   @keyframes lettero {
@@ -90,7 +90,7 @@ html {
   }
   .letter-M{
     animation: letterm;
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
   }
   @keyframes letterm {
@@ -188,8 +188,10 @@ html {
     color: white;
   }
   
-  .bgstar {      
+  .bgstar {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../photo/bg2.jpg);
+    /* background-image: url(/photo/bg2.jpg); */
+    /* background: url(/photo/bg2.jpg); */
     z-index: 0.5;
     background-position: center;
     background-repeat: no-repeat;
