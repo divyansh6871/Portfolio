@@ -198,57 +198,57 @@ html {
   
   #profilephoto {
     width: 47.5%;
-    border-radius: 100%;
+    border-radius: 50%;
     animation: photoborder;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
   }
   
   @keyframes photoborder {
     0% {
-      border: 10px solid blue;
+      border: 5px solid blue;
     }
   
     10% {
-      border: 10px solid #11a64a;
+      border: 5px solid #baf712;
     }
   
     20% {
-      border: 10px solid red;
+      border: 5px solid red;
     }
   
     30% {
-      border: 10px solid #ffffff;
+      border: 5px solid #ffffff;
     }
   
     40% {
-      border: 10px solid lime;
+      border: 5px solid rgb(255, 200, 0);
     }
   
     50% {
-      border: 10px solid #e82674;
+      border: 5px solid #e82674;
   
     }
   
     60% {
-      border: 10px solid #d79d33;
+      border: 5px solid #d79d33;
     }
   
     70% {
-      border: 10px solid #0c61a1;
+      border: 5px solid #0c61a1;
     }
   
     80% {
-      border: 10px solid #d4ff00;
+      border: 5px solid #d4ff00;
     }
   
     90% {
-      border: 10px solid aqua;
+      border: 5px solid aqua;
   
     }
   
     100% {
-      border: 10px solid red;
+      border: 5px solid red;
   
     }
   }
@@ -261,8 +261,18 @@ html {
   }
   
   .bgstar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../photo/bg2.jpg);
-    /* background-image: url(/photo/bg2.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/pex6.jpg);
+    /* background-image: url(/photo/pex3.jpg); */
+    /* background: url(/photo/bg2.jpg); */
+    z-index: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: -1; */
+  }
+  .bgstar1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../photo/pex1.jpg);
+    /* background-image: url(/photo/pex2.jpg); */
     /* background: url(/photo/bg2.jpg); */
     z-index: 0.5;
     background-position: center;
@@ -292,55 +302,55 @@ html {
   
   .boraround {
     animation: deepu;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
   }
   
   @keyframes deepu {
     0% {
-      border: 6px solid #850000;
+      border: 5px solid blue;
     }
   
     10% {
-      border: 6px solid #a30085;
+      border: 5px solid #baf712;
     }
   
     20% {
-      border: 6px solid #0018cc;
+      border: 5px solid red;
     }
   
     30% {
-      border: 6px solid #ffffff;
+      border: 5px solid #ffffff;
     }
   
     40% {
-      border: 6px solid #0099e6;
+      border: 5px solid rgb(255, 200, 0);
     }
   
     50% {
-      border: 6px solid #00f549;
+      border: 5px solid #e82674;
   
     }
   
     60% {
-      border: 6px solid #bda400;
+      border: 5px solid #d79d33;
     }
   
     70% {
-      border: 6px solid #0c61a1;
+      border: 5px solid #0c61a1;
     }
   
     80% {
-      border: 6px solid #e00000;
+      border: 5px solid #d4ff00;
     }
   
     90% {
-      border: 6px solid aqua;
+      border: 5px solid aqua;
   
     }
   
     100% {
-      border: 6px solid red;
+      border: 5px solid red;
   
     }
   }
@@ -570,10 +580,10 @@ html {
   
     #profilephoto {
       width: 60%;
-      padding-top: 10px;
+      /* padding-top: 10px; */
       /* margin-bottom: 2px; */
       animation: photoborder;
-      animation-duration: 2s;
+      animation-duration: 10s;
       animation-iteration-count: infinite;
     }
   
@@ -683,7 +693,7 @@ html {
     }
   
     #profilephoto {
-      padding-top: 10px;
+      /* padding-top: 10px; */
       /* margin-bottom: 2px; */
       animation: photoborder;
       animation-duration: 2s;
