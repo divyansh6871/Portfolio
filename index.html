@@ -1,885 +1,334 @@
-html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    position: static;
-    /* background-color: #470000; */
-  }
-  
-  .letter-W{
-    animation: letterw;
-    animation-duration: 0.2s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterw {
-    0%{
-      color: red;
-    }
-    50%{
-      color: yellow;
-    }
-    100%{
-      color: red;
-    }
-  }
-  .letter-E{
-    animation: lettere;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes lettere {
-    0%{
-      color: rgb(0, 255, 60);
-    }
-    50%{
-      color: rgb(17, 0, 255);
-    }
-    100%{
-      color: rgb(0, 255, 60);
-    }
-  }
-  .letter-L{
-    animation: letterl;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterl {
-    0%{
-      color: rgb(251, 0, 209);
-    }
-    50%{
-      color: rgb(0, 255, 34);
-    }
-    100%{
-      color: rgb(251, 0, 209);
-    }
-  }
-  .letter-C{
-    animation: letterc;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterc {
-    0%{
-      color: rgb(0, 198, 247);
-    }
-    50%{
-      color: rgb(0, 203, 14);
-    }
-    100%{
-      color: rgb(0, 198, 247);
-    }
-  }
-  .letter-O{
-    animation: lettero;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes lettero {
-    0%{
-      color: rgb(247, 0, 0);
-    }
-    50%{
-      color: rgb(193, 241, 0);
-    }
-    100%{
-      color: rgb(247, 0, 0);
-    }
-  }
-  .letter-M{
-    animation: letterm;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterm {
-    0%{
-      color: rgb(231, 252, 0);
-    }
-    50%{
-      color: rgb(0, 133, 250);
-    }
-    100%{
-      color: rgb(231, 252, 0);
-    }
-  }
+<!DOCTYPE html>
+<html>
 
-.nav-divyansh{
-  font-size: xx-large;
-  border-radius: 5px;
-  padding: 10px;
-}
-.nav-home{
-  color: white;
-  border-radius: 4px;
-  margin: 0 4px;
-  padding: 0 10px;
-  font-size: large;
-}
-.nav-divyansh:hover{
-  background-color: #000000;
-}
-.nav-education{
-  color: white;
-  border-radius: 4px;
-  margin: 0 4px;
-  padding: 0 10px;
-  font-size: large;
-}
-.nav-contact{
-  color: white;
-  border-radius: 4px;
-  margin: 0 4px;
-  padding: 0 10px;
-  font-size: large;
-}
-.nav-home:hover{
-  color: black;
-  animation: navitem;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;  
-}
-.nav-education:hover{
-  color: black;
-  animation: navitem;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;  
-}
-.nav-contact:hover{
-  color: black;
-  animation: navitem;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;  
-}
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="style/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Balthazar&family=Roboto+Slab:wght@500&display=swap">
+  <link
+    rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balthazar&family=Caveat:wght@600&family=Roboto+Slab:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Balthazar&family=Caveat:wght@600&family=Roboto+Slab:wght@500&family=Trade+Winds&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
-@keyframes navitem {
-  0%{
-    background-color: rgb(108, 255, 255);
-  }
-  50%{
-    background-color: greenyellow;
-  }
-  100%{
-    background-color: rgb(255, 255, 100);
-  }
-}
-/* .mynavbar{
-  position: sticky;
-  top: 0px;
-} */
-.mycard{
-  position: static;
-}
+<body>
+  <!-- Navbar starts -->
 
-/* .navhead{
-  float: left;
-}
-.navlist{
-  float: inline-end;
-} */
+  <nav class="navbar navbar-expand-md bg-black navbar-dark px-5 py-4 mynavbar sticky-top">
+    <a class="navbar-brand nav-divyansh navhead" href="#"><span class="letter-W">W</span><span class="letter-E">E</span><span class="letter-L">L</span><span class="letter-C">C</span><span class="letter-O">O</span><span class="letter-M">M</span><span class="letter-E">E</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav navlist">
+        <li class="nav-item">
+          <a class="nav-link nav-home" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-education" href="#">Education Qualification</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-contact" href="#">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-contact" href="https://drive.google.com/file/d/1WBlvgf_mUFYONDviIv1UOHG3vEzldzt4/view?usp=drive_link" target="_blank">Download Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Navbar ends -->
+  <!-- Welcome start -->
+
+  <!-- <div class="container-fluid bgstar welcomeletter text-center">
+    <span class="letter-W">W</span><span class="letter-E">E</span><span class="letter-L">L</span><span class="letter-C">C</span><span class="letter-O">O</span><span class="letter-M">M</span><span class="letter-E">E</span>
+  </div> -->
+
+  <!-- welcome end -->
+  <!-- introduction starts -->
+
+  <div class="container-fluid">
+    <div class="row p-4 bgstar">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12" style="margin: auto auto;">
+        <img class="d-block m-auto" src="photo/photo.png" id="profilephoto" alt="DIVYANSH CHAUHAN">
+      </div>
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 intoducemyself boraround" style="margin-top: 4px;">
+        <!--text-center align-items-center -->
+        <div id="intro" class="introbox">
+          <p class="text-center introduction">DIVYANSH CHAUHAN</p>
+          <p class="text-center introduction"><img class="intrologo" src="photo/phone.jpeg" alt="Mobile Number :"> :
+            7983817872</p>
+          <p class="text-center introduction gmaillogo"><img class="intrologo" src="photo/email.png" alt="Email ID :">
+            :
+            dchauhan6871@gmail.com
+          </p>
+          <p class="text-center introduction cpoint"><img class="intrologo" src="photo/linked.png"
+              alt="LinkedIn Profile :">
+            <a href="https://www.linkedin.com/in/divyansh-chauhan-931684237" target="_blank"> : LinkedIn profile</a>
+          </p>
+          <p class="text-center introduction cpoint"><img class="intrologo" src="photo/github.png"
+              alt="Github Profile :"> <a href="https://github.com/divyansh6871" target="_blank"> : Github profile</a>
+          </p>
+          <p class="text-center introduction cpoint"><img class="intrologo" src="photo/insta.jpeg"
+              alt="Github Profile :"> <a href="https://instagram.com/divyansh8032?igshid=ZDc4ODBmNjlmNQ=="
+              target="_blank"> : Instagram Profile</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <hr class="bgan1" style="height:1px"> -->
+  <!-- introduction ends -->
+  <!-- 3 div with about and educational qualifications starts -->
+  <div style="height: 5px;background-color: black;"></div>
+  <div class="conatiner-fluid bgstar1 p-5" style="color: white;">
+    <div class="row">
+      <div class="col-12">
+        <div class="about p-3" class="text-center m-bottom-2" style="color: aqua;">About</div>
+        <div class="careerobj">My name is Divyansh Chauhan. I am a very dynamical person with a cross-cultural
+          fileds of
+          Mathematics and
+          Computer-Science. I would like to seek an opportunity to work with you.</div>
+        <hr style="height: 4px; color: aqua;">
+        <div class="edqua p-3" class="text-center" style="color: aqua;">Education Qualification
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-  .flexbody {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* .sticktop {
-    position: sticky;
-    top: 0px;
-  } */
-  
-  .tblack {
-    color: #1e00ff;
-    /* background-color: #470000; */
-  }
-  
-  #profilephoto {
-    width: 47.5%;
-    border-radius: 50%;
-    animation: photoborder;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes photoborder {
-    0% {
-      border: 5px solid blue;
-    }
-  
-    10% {
-      border: 5px solid #baf712;
-    }
-  
-    20% {
-      border: 5px solid red;
-    }
-  
-    30% {
-      border: 5px solid #ffffff;
-    }
-  
-    40% {
-      border: 5px solid rgb(255, 200, 0);
-    }
-  
-    50% {
-      border: 5px solid #e82674;
-  
-    }
-  
-    60% {
-      border: 5px solid #d79d33;
-    }
-  
-    70% {
-      border: 5px solid #0c61a1;
-    }
-  
-    80% {
-      border: 5px solid #d4ff00;
-    }
-  
-    90% {
-      border: 5px solid aqua;
-  
-    }
-  
-    100% {
-      border: 5px solid red;
-  
-    }
-  }
-  
-  .introbox {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    color: white;
-  }
-  
-  .bgstar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/pex6.jpg);
-    /* background-image: url(/photo/pex3.jpg); */
-    /* background: url(/photo/bg2.jpg); */
-    z-index: 0.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* z-index: -1; */
-  }
-  .bgstar1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../photo/pex1.jpg);
-    /* background-image: url(/photo/pex2.jpg); */
-    /* background: url(/photo/bg2.jpg); */
-    z-index: 0.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* z-index: -1; */
-  }
-  
-  .introduction {
-    font-family: 'Balthazar', serif;
-  }
-  
-  .introduction a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  a:hover {
-    background-color: whitesmoke;
-    color: black;
-    cursor: pointer;
-  }
-  
-  .cpoint {
-    cursor: pointer;
-  }
-  
-  .boraround {
-    animation: deepu;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes deepu {
-    0% {
-      border: 5px solid blue;
-    }
-  
-    10% {
-      border: 5px solid #baf712;
-    }
-  
-    20% {
-      border: 5px solid red;
-    }
-  
-    30% {
-      border: 5px solid #ffffff;
-    }
-  
-    40% {
-      border: 5px solid rgb(255, 200, 0);
-    }
-  
-    50% {
-      border: 5px solid #e82674;
-  
-    }
-  
-    60% {
-      border: 5px solid #d79d33;
-    }
-  
-    70% {
-      border: 5px solid #0c61a1;
-    }
-  
-    80% {
-      border: 5px solid #d4ff00;
-    }
-  
-    90% {
-      border: 5px solid aqua;
-  
-    }
-  
-    100% {
-      border: 5px solid red;
-  
-    }
-  }
-  
-  .shadowyellow {
-    box-shadow: 5px 5px 15px #8a860f;
-  }
-  
-  .scale115 :hover {
-    scale: 1.15;
-  }
-  
-  .scale1 :hover {
-    scale: 1;
-  }
-  
-  .bgan1 {
-    animation: bgan11;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes bgan11 {
-    0% {
-      background-color: #ffffff;
-    }
-  
-    10% {
-      background-color: #f990aa;
-    }
-  
-    20% {
-      background-color: #f7a5fd;
-    }
-  
-    30% {
-      background-color: #6d71f3;
-    }
-  
-    40% {
-      background-color: #ba81f3;
-    }
-  
-    50% {
-      background-color: #4ef9c0;
-    }
-  
-    60% {
-      background-color: #4fff4d;
-    }
-  
-    70% {
-      background-color: #ecf750;
-    }
-  
-    80% {
-      background-color: #ffa238;
-    }
-  
-    90% {
-      background-color: #fb5151;
-    }
-  
-    100% {
-      background-color: #ffffff;
-    }
-  }
-  
-  .skillouter {
-    border-radius: 15px;
-    width: 100%;
-    height: 10px;
-    margin: 4px auto;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .skill1inner{
-    border-radius: 15px;
-    background-color: #45f400;
-    width: 1%;
-    height: 10px;
-    animation: skill100;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill100 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
-  }
+  <!-- 3 div with about and educational qualifications ends -->
+  <!-- education qualifications starts -->
 
-  .skill2inner{
-    border-radius: 15px;
-    background-color: #ff00cc;
-    width: 1%;
-    height: 10px;
-    animation: skill200;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill200 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
-  }
+  <div class="Container-md">
+    <div class="row p-5">
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto scale21" height="250px" src="photo/KIET.png" alt="Card image cap">
+          <div class="card-body text-center">
+            <h3>KIET group of Institutions</h3>
+            <p class="card-text">Currently pursuing Masters in Computer Application</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto scale21" height="250px" src="photo/dit.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h3>DIT University</h3>
+            <p class="card-text">I am a graduate in Bachelor of Science(Hons) in Maths with a CGPA of 8.82</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto scale21" height="250px" src="photo/vvs.jpg" alt="Card image cap">
+          <div class="card-body text-center">
+            <h3>Vision Valley School</h3>
+            <p class="card-text">I passed my 10th standard with 87.8% and my Intermediate with 85.8% marks</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  .skill3inner{
-    border-radius: 15px;
-    background-color: #ef4c4c;
-    width: 1%;
-    height: 10px;
-    animation: skill300;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill300 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 75%;
-    }
-  }
+  <!-- Education qualifications ends -->
+  <!-- skills starts -->
 
-  .skill4inner{
-    border-radius: 15px;
-    background-color: #00ffff;
-    width: 1%;
-    height: 10px;
-    animation: skill400;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill400 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
-  }
-  
-  .gototopbtn {
-    width: 150px;
-    color: white;
-    font-size: 1.2vw;
-    font-weight: bolder;
-    border: 2px solid yellow;
-  }
-  
-  
-  @media screen and (max-width:424px) {
+  <div class="container-fluid bgan1">
+    <div class="row p-4">
+      <div class="col-12">
+        <div class="about p-2" class="text-center m-bottom-2" style="color: black; ">Skills</div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-1 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto" height="200px" src="photo/htmllogo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="text-center">HTML</h3>
+            <div class="skillouter">
+              <div class="skill1inner"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-1 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto" height="200px" src="photo/csslogo.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="text-center">CSS</h3>
+          </div>
+          <div class="skillouter">
+            <div class="skill2inner"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-1 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto" height="200px" src="photo/bootstraplogo.webp" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="text-center" style="font-size: 21px;">Bootsratp</h3>
+          </div>
+          <div class="skillouter">
+            <div class="skill3inner"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-1 scale115">
+        <div class="mycard card bg-light shadowyellow scale1" style="padding : 15px">
+          <img class="card-img-top colphoto" height="200px" src="photo/word logo.webp" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="text-center" style="font-size: 21px;">Microsoft Word</h3>
+          </div>
+          <div class="skillouter">
+            <div class="skill4inner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="bgan1" style="height:3px">
 
-    .welcomeletter{
-      font-size: 50px;
-    }
+  <!-- skills ends -->
+  <!-- certificates start -->
 
-    .careerobj {
-      font-size: 14px;
-      /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
+  <div class="tect-center container-fluid bgan1 edqua" style="color: black; font-family: 'Balthazar', serif;">
+    CERTIFICATIONS
+  </div>
   
-    .edqua {
-      font-size: 20px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-      /* justify-content: center; */
-      /* font-family: 'Roboto Slab', serif; */
-    }
-  
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-  
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  
-    .introduction {
-      padding: 0;
-      font-size: 5vw;
-    }
-  
-    .intrologo {
-      width: 5.5vw;
-    }
-  
-    .intoducemyself {
-      line-height: 0.1rem;
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      width: 60%;
-      /* padding-top: 10px; */
-      /* margin-bottom: 2px; */
-      animation: photoborder;
-      animation-duration: 10s;
-      animation-iteration-count: infinite;
-    }
-  
-    .colphoto {
-      height: 150px;
-    }
-  
-    @keyframes photoborder {
-      0% {
-        border: 4px solid blue;
-      }
-  
-      10% {
-        border: 4px solid #11a64a;
-      }
-  
-      20% {
-        border: 4px solid red;
-      }
-  
-      30% {
-        border: 4px solid #ffffff;
-      }
-  
-      40% {
-        border: 4px solid lime;
-      }
-  
-      50% {
-        border: 4px solid #e82674;
-  
-      }
-  
-      60% {
-        border: 4px solid #d79d33;
-      }
-  
-      70% {
-        border: 4px solid #0c61a1;
-      }
-  
-      80% {
-        border: 4px solid #d4ff00;
-      }
-  
-      90% {
-        border: 4px solid aqua;
-  
-      }
-  
-      100% {
-        border: 4px solid red;
-  
-      }
-    }
-  }
-  
-  @media screen and (min-width:425px) and (max-width:768px) {
 
-    .welcomeletter{
-      font-size: 75px;
-    }
 
-    .careerobj {
-      font-size: 24px;
-      /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .edqua {
-      font-size: 40px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 45px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-      /* justify-content: center; */
-      /* font-family: 'Roboto Slab', serif; */
-    }
-  
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-  
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  
-    .introduction {
-      font-size: 4vw;
-    }
-  
-    .intrologo {
-      width: 4vw;
-    }
-  
-    .intoducemyself {
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      /* padding-top: 10px; */
-      /* margin-bottom: 2px; */
-      animation: photoborder;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-    }
-  
-    .colphoto {
-      height: 300px;
-    }
-  
-    @keyframes photoborder {
-      0% {
-        border: 7px solid blue;
-      }
-  
-      10% {
-        border: 7px solid #11a64a;
-      }
-  
-      20% {
-        border: 7px solid red;
-      }
-  
-      30% {
-        border: 7px solid #ffffff;
-      }
-  
-      40% {
-        border: 7px solid lime;
-      }
-  
-      50% {
-        border: 7px solid #e82674;
-  
-      }
-  
-      60% {
-        border: 7px solid #d79d33;
-      }
-  
-      70% {
-        border: 7px solid #0c61a1;
-      }
-  
-      80% {
-        border: 7px solid #d4ff00;
-      }
-  
-      90% {
-        border: 7px solid aqua;
-  
-      }
-  
-      100% {
-        border: 7px solid red;
-  
-      }
-    }
-  }
-  
-  @media screen and (min-width:769px) and (max-width:1024px) {
+  <div>
+    <div class="container" style="position: inherit;">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Certificate in HTML on Linkedin
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="container">
+                <img class="img-responsive" style="width: 100%;" src="photo/HTML certificate.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Certificate in CSS on Linkedin
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <div class="container">
+                <img class="img-responsive" style="width: 100%;" src="photo/css certificate.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Certificate in Bootstrap on Linkedin
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="container">
+                  <img class="img-responsive" style="width: 100%;" src="photo/bootstrap certificate.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Certificate in Microsoft Word on Linkedin
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="container">
+                  <img class="img-responsive" style="width: 100%;" src="photo/word certificate.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Certificate in HTML, CSS and JavaScript on Coursera
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="container">
+                  <img class="img-responsive" style="width: 100%;" src="photo/Coursera  Web Tech.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    .welcomeletter{
-      font-size: 100px;
-    }
 
-    .careerobj {
-      font-size: 30px;
-      /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .edqua {
-      font-size: 60px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 60px;
-      font-weight: bold;
-      /* font-family: 'Balthazar', serif; */
-      text-align: center;
-      /* justify-content: center; */
-      font-family: 'Roboto Slab', serif;
-    }
-  
-    .topnav.responsive {
-      position: relative;
-    }
-  
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-    .introduction {
-      font-size: 5vw;
-    }
-  
-    .intrologo {
-      width: 5vw;
-    }
-  
-    .intoducemyself {
-      line-height: 1.5rem;
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      width: 50%;
-      padding-top: 10px;
-    }
-  }
-  
-  @media screen and (min-width:769px) {
 
-    .welcomeletter{
-      font-size: 125px;
-    }
+  <div>
+    
+  </div>
 
-    .careerobj {
-      font-size: 40px;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .carrerobj {}
-  
-    .edqua {
-      font-size: 70px;
-      font-weight: bold;
-      text-align: center;
-      /* font-family: 'Balthazar', serif; */
-      /* font-family: 'Caveat', cursive; */
-      /* font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .about {
-      font-size: 65px;
-      font-weight: bold;
-      text-align: center;
-      /* font-family: 'Balthazar', serif; */
-      /* font-family: 'Caveat', cursive; */
-      /* font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .topnav.responsive {
-      position: relative;
-    }
-  
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-    .introduction {
-      font-size: 2vw;
-    }
-  
-    .intrologo {
-      width: 2vw;
-    }
-  
-    #profilephoto {
-      width: 38%;
-    }
-  
-  
-  }
+
+  <!-- certificate ends -->
+  <!-- footer starts -->
+  <hr class="bgan1" style="height:10px;color: black;">
+  <div class="container-fluid bg-black">
+    <div class="row">
+      <div class="col-12 text-center" style="color: white;font-size: 16px;">
+        <input type="checkbox"> This is to certify that I have gone through the web profile of Divyansh
+        Chauhan.</input><br>
+        <a class="gototopbtn btn mt-3" href="#top" style="font-size: 16px;">go to top</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="script/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
