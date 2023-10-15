@@ -6,7 +6,6 @@ html {
   box-sizing: border-box;
   overflow-x: hidden;
   position: static;
-  /* background-color: #470000; */
 }
 
 .letter-W {
@@ -198,39 +197,22 @@ html {
   }
 }
 
-/* .mynavbar{
-  position: sticky;
-  top: 0px;
-} */
+
 .mycard {
   position: static;
 }
-
-/* .navhead{
-  float: left;
-}
-.navlist{
-  float: inline-end;
-} */
-
 
 .flexbody {
   display: flex;
   flex-direction: row;
 }
 
-/* .sticktop {
-    position: sticky;
-    top: 0px;
-  } */
 
 .tblack {
   color: #1e00ff;
-  /* background-color: #470000; */
 }
 
 #profilephoto {
-  /* width: 60.5%; */
   height: 360px;
   border-radius: 50%;
   animation: photoborder;
@@ -296,8 +278,6 @@ html {
 
 .bgstar {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/pex6.jpg);
-  /* background-image: url(/photo/pex3.jpg); */
-  /* background: url(/photo/bg2.jpg); */
   z-index: 0.5;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,13 +287,10 @@ html {
 
 .bgstar1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../photo/pex1.jpg);
-  /* background-image: url(/photo/pex2.jpg); */
-  /* background: url(/photo/bg2.jpg); */
   z-index: 0.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* z-index: -1; */
 }
 
 .introduction {
@@ -476,7 +453,6 @@ a:hover {
   0% {
     height: 10px;
     width: 1%;
-    /* position: relative; */
   }
 
   100% {
@@ -499,7 +475,6 @@ a:hover {
   0% {
     height: 10px;
     width: 1%;
-    /* position: relative; */
   }
 
   100% {
@@ -523,7 +498,6 @@ a:hover {
   0% {
     height: 10px;
     width: 1%;
-    /* position: relative; */
   }
 
   100% {
@@ -546,7 +520,6 @@ a:hover {
   0% {
     height: 10px;
     width: 1%;
-    /* position: relative; */
   }
 
   100% {
@@ -566,7 +539,6 @@ a:hover {
 
 @media screen and (max-width:424px) {
   #profilephoto {
-    /* width: 60.5%; */
     height: 250px;
     border-radius: 50%;
     animation: photoborder;
@@ -580,9 +552,6 @@ a:hover {
 
   .careerobj {
     font-size: 14px;
-    /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
     font-family: 'Trade Winds', cursive;
   }
 
@@ -598,8 +567,6 @@ a:hover {
     font-weight: bold;
     font-family: 'Balthazar', serif;
     text-align: center;
-    /* justify-content: center; */
-    /* font-family: 'Roboto Slab', serif; */
   }
 
   .topnav a:not(:first-child) {
@@ -687,9 +654,6 @@ a:hover {
 
   .careerobj {
     font-size: 24px;
-    /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
     font-family: 'Trade Winds', cursive;
   }
 
@@ -705,8 +669,6 @@ a:hover {
     font-weight: bold;
     font-family: 'Balthazar', serif;
     text-align: center;
-    /* justify-content: center; */
-    /* font-family: 'Roboto Slab', serif; */
   }
 
   .topnav a:not(:first-child) {
@@ -731,8 +693,6 @@ a:hover {
   }
 
   #profilephoto {
-    /* padding-top: 10px; */
-    /* margin-bottom: 2px; */
     animation: photoborder;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -800,9 +760,6 @@ a:hover {
 
   .careerobj {
     font-size: 30px;
-    /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
     font-family: 'Trade Winds', cursive;
   }
 
@@ -816,9 +773,7 @@ a:hover {
   .about {
     font-size: 60px;
     font-weight: bold;
-    /* font-family: 'Balthazar', serif; */
     text-align: center;
-    /* justify-content: center; */
     font-family: 'Roboto Slab', serif;
   }
 
@@ -853,7 +808,6 @@ a:hover {
 
   #profilephoto {
     width: 50%;
-    padding-top: 10px;
   }
 }
 
@@ -869,15 +823,10 @@ a:hover {
     text-align: center;
   }
 
-  .carrerobj {}
-
   .edqua {
     font-size: 70px;
     font-weight: bold;
     text-align: center;
-    /* font-family: 'Balthazar', serif; */
-    /* font-family: 'Caveat', cursive; */
-    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Trade Winds', cursive;
   }
 
@@ -885,9 +834,6 @@ a:hover {
     font-size: 65px;
     font-weight: bold;
     text-align: center;
-    /* font-family: 'Balthazar', serif; */
-    /* font-family: 'Caveat', cursive; */
-    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Trade Winds', cursive;
   }
 
@@ -918,6 +864,5 @@ a:hover {
   #profilephoto {
     width: 38%;
   }
-
 
 }
