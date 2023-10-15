@@ -1,175 +1,208 @@
 html {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    position: static;
-    /* background-color: #470000; */
-  }
-  
-  .letter-W{
-    animation: letterw;
-    animation-duration: 0.2s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterw {
-    0%{
-      color: red;
-    }
-    50%{
-      color: yellow;
-    }
-    100%{
-      color: red;
-    }
-  }
-  .letter-E{
-    animation: lettere;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes lettere {
-    0%{
-      color: rgb(0, 255, 60);
-    }
-    50%{
-      color: rgb(17, 0, 255);
-    }
-    100%{
-      color: rgb(0, 255, 60);
-    }
-  }
-  .letter-L{
-    animation: letterl;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterl {
-    0%{
-      color: rgb(251, 0, 209);
-    }
-    50%{
-      color: rgb(0, 255, 34);
-    }
-    100%{
-      color: rgb(251, 0, 209);
-    }
-  }
-  .letter-C{
-    animation: letterc;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterc {
-    0%{
-      color: rgb(0, 198, 247);
-    }
-    50%{
-      color: rgb(0, 203, 14);
-    }
-    100%{
-      color: rgb(0, 198, 247);
-    }
-  }
-  .letter-O{
-    animation: lettero;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes lettero {
-    0%{
-      color: rgb(247, 0, 0);
-    }
-    50%{
-      color: rgb(193, 241, 0);
-    }
-    100%{
-      color: rgb(247, 0, 0);
-    }
-  }
-  .letter-M{
-    animation: letterm;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes letterm {
-    0%{
-      color: rgb(231, 252, 0);
-    }
-    50%{
-      color: rgb(0, 133, 250);
-    }
-    100%{
-      color: rgb(231, 252, 0);
-    }
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  position: static;
+  /* background-color: #470000; */
+}
+
+.letter-W {
+  animation: letterw;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letterw {
+  0% {
+    color: red;
   }
 
-.nav-divyansh{
+  50% {
+    color: yellow;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.letter-E {
+  animation: lettere;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lettere {
+  0% {
+    color: rgb(0, 255, 60);
+  }
+
+  50% {
+    color: rgb(17, 0, 255);
+  }
+
+  100% {
+    color: rgb(0, 255, 60);
+  }
+}
+
+.letter-L {
+  animation: letterl;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letterl {
+  0% {
+    color: rgb(251, 0, 209);
+  }
+
+  50% {
+    color: rgb(0, 255, 34);
+  }
+
+  100% {
+    color: rgb(251, 0, 209);
+  }
+}
+
+.letter-C {
+  animation: letterc;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letterc {
+  0% {
+    color: rgb(0, 198, 247);
+  }
+
+  50% {
+    color: rgb(0, 203, 14);
+  }
+
+  100% {
+    color: rgb(0, 198, 247);
+  }
+}
+
+.letter-O {
+  animation: lettero;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lettero {
+  0% {
+    color: rgb(247, 0, 0);
+  }
+
+  50% {
+    color: rgb(193, 241, 0);
+  }
+
+  100% {
+    color: rgb(247, 0, 0);
+  }
+}
+
+.letter-M {
+  animation: letterm;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letterm {
+  0% {
+    color: rgb(231, 252, 0);
+  }
+
+  50% {
+    color: rgb(0, 133, 250);
+  }
+
+  100% {
+    color: rgb(231, 252, 0);
+  }
+}
+
+.nav-divyansh {
   font-size: xx-large;
   border-radius: 5px;
   padding: 10px;
 }
-.nav-home{
+
+.nav-home {
   color: white;
   border-radius: 4px;
   margin: 0 4px;
   padding: 0 10px;
   font-size: large;
 }
-.nav-divyansh:hover{
+
+.nav-divyansh:hover {
   background-color: #000000;
 }
-.nav-education{
+
+.nav-education {
   color: white;
   border-radius: 4px;
   margin: 0 4px;
   padding: 0 10px;
   font-size: large;
 }
-.nav-contact{
+
+.nav-contact {
   color: white;
   border-radius: 4px;
   margin: 0 4px;
   padding: 0 10px;
   font-size: large;
 }
-.nav-home:hover{
+
+.nav-home:hover {
   color: black;
   animation: navitem;
   animation-duration: 5s;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
 }
-.nav-education:hover{
+
+.nav-education:hover {
   color: black;
   animation: navitem;
   animation-duration: 5s;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
 }
-.nav-contact:hover{
+
+.nav-contact:hover {
   color: black;
   animation: navitem;
   animation-duration: 5s;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite;
 }
 
 @keyframes navitem {
-  0%{
+  0% {
     background-color: rgb(108, 255, 255);
   }
-  50%{
+
+  50% {
     background-color: greenyellow;
   }
-  100%{
+
+  100% {
     background-color: rgb(255, 255, 100);
   }
 }
+
 /* .mynavbar{
   position: sticky;
   top: 0px;
 } */
-.mycard{
+.mycard {
   position: static;
 }
 
@@ -181,714 +214,710 @@ html {
 } */
 
 
-  .flexbody {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  /* .sticktop {
+.flexbody {
+  display: flex;
+  flex-direction: row;
+}
+
+/* .sticktop {
     position: sticky;
     top: 0px;
   } */
-  
-  .tblack {
-    color: #1e00ff;
-    /* background-color: #470000; */
+
+.tblack {
+  color: #1e00ff;
+  /* background-color: #470000; */
+}
+
+#profilephoto {
+  /* width: 60.5%; */
+  height: 360px;
+  border-radius: 50%;
+  animation: photoborder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoborder {
+  0% {
+    border: 5px solid blue;
   }
-  
+
+  10% {
+    border: 5px solid #baf712;
+  }
+
+  20% {
+    border: 5px solid red;
+  }
+
+  30% {
+    border: 5px solid #ffffff;
+  }
+
+  40% {
+    border: 5px solid rgb(255, 200, 0);
+  }
+
+  50% {
+    border: 5px solid #e82674;
+
+  }
+
+  60% {
+    border: 5px solid #d79d33;
+  }
+
+  70% {
+    border: 5px solid #0c61a1;
+  }
+
+  80% {
+    border: 5px solid #d4ff00;
+  }
+
+  90% {
+    border: 5px solid aqua;
+
+  }
+
+  100% {
+    border: 5px solid red;
+
+  }
+}
+
+.introbox {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.bgstar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/pex6.jpg);
+  /* background-image: url(/photo/pex3.jpg); */
+  /* background: url(/photo/bg2.jpg); */
+  z-index: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* z-index: -1; */
+}
+
+.bgstar1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../photo/pex1.jpg);
+  /* background-image: url(/photo/pex2.jpg); */
+  /* background: url(/photo/bg2.jpg); */
+  z-index: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* z-index: -1; */
+}
+
+.introduction {
+  font-family: 'Balthazar', serif;
+}
+
+.introduction a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+.cpoint {
+  cursor: pointer;
+}
+
+.boraround {
+  animation: deepu;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes deepu {
+  0% {
+    border: 5px solid blue;
+  }
+
+  10% {
+    border: 5px solid #baf712;
+  }
+
+  20% {
+    border: 5px solid red;
+  }
+
+  30% {
+    border: 5px solid #ffffff;
+  }
+
+  40% {
+    border: 5px solid rgb(255, 200, 0);
+  }
+
+  50% {
+    border: 5px solid #e82674;
+
+  }
+
+  60% {
+    border: 5px solid #d79d33;
+  }
+
+  70% {
+    border: 5px solid #0c61a1;
+  }
+
+  80% {
+    border: 5px solid #d4ff00;
+  }
+
+  90% {
+    border: 5px solid aqua;
+
+  }
+
+  100% {
+    border: 5px solid red;
+
+  }
+}
+
+.shadowyellow {
+  box-shadow: 5px 5px 15px #8a860f;
+}
+
+.scale115 :hover {
+  scale: 1.15;
+}
+
+.scale1 :hover {
+  scale: 1;
+}
+
+.bgan1 {
+  animation: bgan11;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bgan11 {
+  0% {
+    background-color: #ffffff;
+  }
+
+  10% {
+    background-color: #f990aa;
+  }
+
+  20% {
+    background-color: #f7a5fd;
+  }
+
+  30% {
+    background-color: #6d71f3;
+  }
+
+  40% {
+    background-color: #ba81f3;
+  }
+
+  50% {
+    background-color: #4ef9c0;
+  }
+
+  60% {
+    background-color: #4fff4d;
+  }
+
+  70% {
+    background-color: #ecf750;
+  }
+
+  80% {
+    background-color: #ffa238;
+  }
+
+  90% {
+    background-color: #fb5151;
+  }
+
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+.skillouter {
+  border-radius: 15px;
+  width: 100%;
+  height: 10px;
+  margin: 4px auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.skill1inner {
+  border-radius: 15px;
+  background-color: #45f400;
+  width: 1%;
+  height: 10px;
+  animation: skill100;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skill100 {
+  0% {
+    height: 10px;
+    width: 1%;
+    /* position: relative; */
+  }
+
+  100% {
+    height: 10px;
+    width: 100%;
+  }
+}
+
+.skill2inner {
+  border-radius: 15px;
+  background-color: #ff00cc;
+  width: 1%;
+  height: 10px;
+  animation: skill200;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skill200 {
+  0% {
+    height: 10px;
+    width: 1%;
+    /* position: relative; */
+  }
+
+  100% {
+    height: 10px;
+    width: 100%;
+  }
+}
+
+.skill3inner {
+  border-radius: 15px;
+  background-color: #ef4c4c;
+  width: 1%;
+  height: 10px;
+  animation: skill300;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skill300 {
+  0% {
+    height: 10px;
+    width: 1%;
+    /* position: relative; */
+  }
+
+  100% {
+    height: 10px;
+    width: 75%;
+  }
+}
+
+.skill4inner {
+  border-radius: 15px;
+  background-color: #00ffff;
+  width: 1%;
+  height: 10px;
+  animation: skill400;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes skill400 {
+  0% {
+    height: 10px;
+    width: 1%;
+    /* position: relative; */
+  }
+
+  100% {
+    height: 10px;
+    width: 100%;
+  }
+}
+
+.gototopbtn {
+  width: 150px;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  border: 2px solid yellow;
+}
+
+
+@media screen and (max-width:424px) {
   #profilephoto {
     /* width: 60.5%; */
-    height:360px;
+    height: 250px;
     border-radius: 50%;
     animation: photoborder;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
-  
+
+  .welcomeletter {
+    font-size: 50px;
+  }
+
+  .careerobj {
+    font-size: 14px;
+    /* font-family: 'Balthazar', serif;
+      font-family: 'Caveat', cursive;
+      font-family: 'Roboto Slab', serif; */
+    font-family: 'Trade Winds', cursive;
+  }
+
+  .edqua {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Balthazar', serif;
+    text-align: center;
+  }
+
+  .about {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Balthazar', serif;
+    text-align: center;
+    /* justify-content: center; */
+    /* font-family: 'Roboto Slab', serif; */
+  }
+
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .introduction {
+    padding: 0;
+    font-size: 5vw;
+  }
+
+  .intrologo {
+    width: 5.5vw;
+  }
+
+  .intoducemyself {
+    line-height: 0.1rem;
+    padding-top: 1.5rem;
+  }
+
+  .colphoto {
+    height: 150px;
+  }
+
   @keyframes photoborder {
     0% {
-      border: 5px solid blue;
+      border: 4px solid blue;
     }
-  
+
     10% {
-      border: 5px solid #baf712;
+      border: 4px solid #11a64a;
     }
-  
+
     20% {
-      border: 5px solid red;
+      border: 4px solid red;
     }
-  
+
     30% {
-      border: 5px solid #ffffff;
+      border: 4px solid #ffffff;
     }
-  
+
     40% {
-      border: 5px solid rgb(255, 200, 0);
+      border: 4px solid lime;
     }
-  
+
     50% {
-      border: 5px solid #e82674;
-  
+      border: 4px solid #e82674;
+
     }
-  
+
     60% {
-      border: 5px solid #d79d33;
+      border: 4px solid #d79d33;
     }
-  
+
     70% {
-      border: 5px solid #0c61a1;
+      border: 4px solid #0c61a1;
     }
-  
+
     80% {
-      border: 5px solid #d4ff00;
+      border: 4px solid #d4ff00;
     }
-  
+
     90% {
-      border: 5px solid aqua;
-  
+      border: 4px solid aqua;
+
     }
-  
+
     100% {
-      border: 5px solid red;
-  
+      border: 4px solid red;
+
     }
   }
-  
-  .introbox {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    color: white;
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+
+  .welcomeletter {
+    font-size: 75px;
   }
-  
-  .bgstar {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/pex6.jpg);
-    /* background-image: url(/photo/pex3.jpg); */
-    /* background: url(/photo/bg2.jpg); */
-    z-index: 0.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* z-index: -1; */
+
+  .careerobj {
+    font-size: 24px;
+    /* font-family: 'Balthazar', serif;
+      font-family: 'Caveat', cursive;
+      font-family: 'Roboto Slab', serif; */
+    font-family: 'Trade Winds', cursive;
   }
-  .bgstar1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../photo/pex1.jpg);
-    /* background-image: url(/photo/pex2.jpg); */
-    /* background: url(/photo/bg2.jpg); */
-    z-index: 0.5;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* z-index: -1; */
-  }
-  
-  .introduction {
+
+  .edqua {
+    font-size: 40px;
+    font-weight: bold;
     font-family: 'Balthazar', serif;
+    text-align: center;
   }
-  
-  .introduction a {
-    text-decoration: none;
-    color: white;
+
+  .about {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Balthazar', serif;
+    text-align: center;
+    /* justify-content: center; */
+    /* font-family: 'Roboto Slab', serif; */
   }
-  
-  a:hover {
-    background-color: whitesmoke;
-    color: black;
-    cursor: pointer;
+
+  .topnav a:not(:first-child) {
+    display: none;
   }
-  
-  .cpoint {
-    cursor: pointer;
+
+  .topnav a.icon {
+    float: right;
+    display: block;
   }
-  
-  .boraround {
-    animation: deepu;
-    animation-duration: 5s;
+
+  .introduction {
+    font-size: 4vw;
+  }
+
+  .intrologo {
+    width: 4vw;
+  }
+
+  .intoducemyself {
+    padding-top: 1.5rem;
+  }
+
+  #profilephoto {
+    /* padding-top: 10px; */
+    /* margin-bottom: 2px; */
+    animation: photoborder;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
   }
-  
-  @keyframes deepu {
+
+  .colphoto {
+    height: 300px;
+  }
+
+  @keyframes photoborder {
     0% {
-      border: 5px solid blue;
+      border: 7px solid blue;
     }
-  
+
     10% {
-      border: 5px solid #baf712;
+      border: 7px solid #11a64a;
     }
-  
+
     20% {
-      border: 5px solid red;
+      border: 7px solid red;
     }
-  
+
     30% {
-      border: 5px solid #ffffff;
+      border: 7px solid #ffffff;
     }
-  
+
     40% {
-      border: 5px solid rgb(255, 200, 0);
+      border: 7px solid lime;
     }
-  
+
     50% {
-      border: 5px solid #e82674;
-  
+      border: 7px solid #e82674;
+
     }
-  
+
     60% {
-      border: 5px solid #d79d33;
+      border: 7px solid #d79d33;
     }
-  
+
     70% {
-      border: 5px solid #0c61a1;
+      border: 7px solid #0c61a1;
     }
-  
+
     80% {
-      border: 5px solid #d4ff00;
+      border: 7px solid #d4ff00;
     }
-  
+
     90% {
-      border: 5px solid aqua;
-  
+      border: 7px solid aqua;
+
     }
-  
+
     100% {
-      border: 5px solid red;
-  
+      border: 7px solid red;
+
     }
   }
-  
-  .shadowyellow {
-    box-shadow: 5px 5px 15px #8a860f;
-  }
-  
-  .scale115 :hover {
-    scale: 1.15;
-  }
-  
-  .scale1 :hover {
-    scale: 1;
-  }
-  
-  .bgan1 {
-    animation: bgan11;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes bgan11 {
-    0% {
-      background-color: #ffffff;
-    }
-  
-    10% {
-      background-color: #f990aa;
-    }
-  
-    20% {
-      background-color: #f7a5fd;
-    }
-  
-    30% {
-      background-color: #6d71f3;
-    }
-  
-    40% {
-      background-color: #ba81f3;
-    }
-  
-    50% {
-      background-color: #4ef9c0;
-    }
-  
-    60% {
-      background-color: #4fff4d;
-    }
-  
-    70% {
-      background-color: #ecf750;
-    }
-  
-    80% {
-      background-color: #ffa238;
-    }
-  
-    90% {
-      background-color: #fb5151;
-    }
-  
-    100% {
-      background-color: #ffffff;
-    }
-  }
-  
-  .skillouter {
-    border-radius: 15px;
-    width: 100%;
-    height: 10px;
-    margin: 4px auto;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .skill1inner{
-    border-radius: 15px;
-    background-color: #45f400;
-    width: 1%;
-    height: 10px;
-    animation: skill100;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill100 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+  .welcomeletter {
+    font-size: 100px;
   }
 
-  .skill2inner{
-    border-radius: 15px;
-    background-color: #ff00cc;
-    width: 1%;
-    height: 10px;
-    animation: skill200;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill200 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
-  }
-
-  .skill3inner{
-    border-radius: 15px;
-    background-color: #ef4c4c;
-    width: 1%;
-    height: 10px;
-    animation: skill300;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill300 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 75%;
-    }
-  }
-
-  .skill4inner{
-    border-radius: 15px;
-    background-color: #00ffff;
-    width: 1%;
-    height: 10px;
-    animation: skill400;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes skill400 {
-    0%{
-      height: 10px;
-      width: 1%;
-      /* position: relative; */
-    }
-    100%{
-      height: 10px;
-      width: 100%;
-    }
-  }
-  
-  .gototopbtn {
-    width: 150px;
-    color: white;
-    font-size: 1.2vw;
-    font-weight: bolder;
-    border: 2px solid yellow;
-  }
-  
-  
-  @media screen and (max-width:424px) {
-    #profilephoto {
-      /* width: 60.5%; */
-      height:250px;
-      border-radius: 50%;
-      animation: photoborder;
-      animation-duration: 5s;
-      animation-iteration-count: infinite;
-    }
-
-    .welcomeletter{
-      font-size: 50px;
-    }
-
-    .careerobj {
-      font-size: 14px;
-      /* font-family: 'Balthazar', serif;
+  .careerobj {
+    font-size: 30px;
+    /* font-family: 'Balthazar', serif;
       font-family: 'Caveat', cursive;
       font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .edqua {
-      font-size: 20px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 30px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-      /* justify-content: center; */
-      /* font-family: 'Roboto Slab', serif; */
-    }
-  
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-  
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  
-    .introduction {
-      padding: 0;
-      font-size: 5vw;
-    }
-  
-    .intrologo {
-      width: 5.5vw;
-    }
-  
-    .intoducemyself {
-      line-height: 0.1rem;
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      width: 60%;
-      /* padding-top: 10px; */
-      /* margin-bottom: 2px; */
-      animation: photoborder;
-      animation-duration: 10s;
-      animation-iteration-count: infinite;
-    }
-  
-    .colphoto {
-      height: 150px;
-    }
-  
-    @keyframes photoborder {
-      0% {
-        border: 4px solid blue;
-      }
-  
-      10% {
-        border: 4px solid #11a64a;
-      }
-  
-      20% {
-        border: 4px solid red;
-      }
-  
-      30% {
-        border: 4px solid #ffffff;
-      }
-  
-      40% {
-        border: 4px solid lime;
-      }
-  
-      50% {
-        border: 4px solid #e82674;
-  
-      }
-  
-      60% {
-        border: 4px solid #d79d33;
-      }
-  
-      70% {
-        border: 4px solid #0c61a1;
-      }
-  
-      80% {
-        border: 4px solid #d4ff00;
-      }
-  
-      90% {
-        border: 4px solid aqua;
-  
-      }
-  
-      100% {
-        border: 4px solid red;
-  
-      }
-    }
+    font-family: 'Trade Winds', cursive;
   }
-  
-  @media screen and (min-width:425px) and (max-width:768px) {
 
-    .welcomeletter{
-      font-size: 75px;
-    }
-
-    .careerobj {
-      font-size: 24px;
-      /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .edqua {
-      font-size: 40px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 45px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-      /* justify-content: center; */
-      /* font-family: 'Roboto Slab', serif; */
-    }
-  
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-  
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  
-    .introduction {
-      font-size: 4vw;
-    }
-  
-    .intrologo {
-      width: 4vw;
-    }
-  
-    .intoducemyself {
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      /* padding-top: 10px; */
-      /* margin-bottom: 2px; */
-      animation: photoborder;
-      animation-duration: 2s;
-      animation-iteration-count: infinite;
-    }
-  
-    .colphoto {
-      height: 300px;
-    }
-  
-    @keyframes photoborder {
-      0% {
-        border: 7px solid blue;
-      }
-  
-      10% {
-        border: 7px solid #11a64a;
-      }
-  
-      20% {
-        border: 7px solid red;
-      }
-  
-      30% {
-        border: 7px solid #ffffff;
-      }
-  
-      40% {
-        border: 7px solid lime;
-      }
-  
-      50% {
-        border: 7px solid #e82674;
-  
-      }
-  
-      60% {
-        border: 7px solid #d79d33;
-      }
-  
-      70% {
-        border: 7px solid #0c61a1;
-      }
-  
-      80% {
-        border: 7px solid #d4ff00;
-      }
-  
-      90% {
-        border: 7px solid aqua;
-  
-      }
-  
-      100% {
-        border: 7px solid red;
-  
-      }
-    }
+  .edqua {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Balthazar', serif;
+    text-align: center;
   }
-  
-  @media screen and (min-width:769px) and (max-width:1024px) {
 
-    .welcomeletter{
-      font-size: 100px;
-    }
-
-    .careerobj {
-      font-size: 30px;
-      /* font-family: 'Balthazar', serif;
-      font-family: 'Caveat', cursive;
-      font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .edqua {
-      font-size: 60px;
-      font-weight: bold;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .about {
-      font-size: 60px;
-      font-weight: bold;
-      /* font-family: 'Balthazar', serif; */
-      text-align: center;
-      /* justify-content: center; */
-      font-family: 'Roboto Slab', serif;
-    }
-  
-    .topnav.responsive {
-      position: relative;
-    }
-  
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-    .introduction {
-      font-size: 5vw;
-    }
-  
-    .intrologo {
-      width: 5vw;
-    }
-  
-    .intoducemyself {
-      line-height: 1.5rem;
-      padding-top: 1.5rem;
-    }
-  
-    #profilephoto {
-      width: 50%;
-      padding-top: 10px;
-    }
+  .about {
+    font-size: 60px;
+    font-weight: bold;
+    /* font-family: 'Balthazar', serif; */
+    text-align: center;
+    /* justify-content: center; */
+    font-family: 'Roboto Slab', serif;
   }
-  
-  @media screen and (min-width:769px) {
 
-    .welcomeletter{
-      font-size: 125px;
-    }
-
-    .careerobj {
-      font-size: 40px;
-      font-family: 'Balthazar', serif;
-      text-align: center;
-    }
-  
-    .carrerobj {}
-  
-    .edqua {
-      font-size: 70px;
-      font-weight: bold;
-      text-align: center;
-      /* font-family: 'Balthazar', serif; */
-      /* font-family: 'Caveat', cursive; */
-      /* font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .about {
-      font-size: 65px;
-      font-weight: bold;
-      text-align: center;
-      /* font-family: 'Balthazar', serif; */
-      /* font-family: 'Caveat', cursive; */
-      /* font-family: 'Roboto Slab', serif; */
-      font-family: 'Trade Winds', cursive;
-    }
-  
-    .topnav.responsive {
-      position: relative;
-    }
-  
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  
-    .introduction {
-      font-size: 2vw;
-    }
-  
-    .intrologo {
-      width: 2vw;
-    }
-  
-    #profilephoto {
-      width: 38%;
-    }
-  
-  
+  .topnav.responsive {
+    position: relative;
   }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .introduction {
+    font-size: 5vw;
+  }
+
+  .intrologo {
+    width: 5vw;
+  }
+
+  .intoducemyself {
+    line-height: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  #profilephoto {
+    width: 50%;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width:769px) {
+
+  .welcomeletter {
+    font-size: 125px;
+  }
+
+  .careerobj {
+    font-size: 40px;
+    font-family: 'Balthazar', serif;
+    text-align: center;
+  }
+
+  .carrerobj {}
+
+  .edqua {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    /* font-family: 'Balthazar', serif; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Trade Winds', cursive;
+  }
+
+  .about {
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    /* font-family: 'Balthazar', serif; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Trade Winds', cursive;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .introduction {
+    font-size: 2vw;
+  }
+
+  .intrologo {
+    width: 2vw;
+  }
+
+  #profilephoto {
+    width: 38%;
+  }
+
+
+}
