@@ -198,6 +198,7 @@ html {
   
   #profilephoto {
     /* width: 60.5%; */
+    height:360px;
     border-radius: 50%;
     animation: photoborder;
     animation-duration: 5s;
@@ -526,6 +527,14 @@ html {
   
   
   @media screen and (max-width:424px) {
+    #profilephoto {
+      /* width: 60.5%; */
+      height:250px;
+      border-radius: 50%;
+      animation: photoborder;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
 
     .welcomeletter{
       font-size: 50px;
