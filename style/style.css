@@ -197,7 +197,7 @@ html {
   }
   
   #profilephoto {
-    width: 47.5%;
+    /* width: 60.5%; */
     border-radius: 50%;
     animation: photoborder;
     animation-duration: 5s;
