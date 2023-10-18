@@ -3,29 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.form_container {
-    display: flex;
-    height: 90vh;
-    /* background-color: aqua; */
+body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/form_wallpaper.jpg);
-    color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.form_container {
+    display: flex;
+    /* height: 90vh; */
+    /* background-color: aqua; */
+    color: white;
     align-items: center;
     justify-content: center;
+    padding-top: 3rem;
+    /* position: absolute; */
 }
-
-.inner_form {
-    height: 70vh;
-    width: 50vw;
-    /* background-color: bisque; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 
 
 
@@ -33,10 +27,28 @@
     .enter_field {
         margin: 5px;
         padding: 10px;
-        font-size: xx-large;
+        font-size: medium;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: whitesmoke;
+        border-bottom: 2PX solid aqua;
+    }
+    .enter_field input{
+        padding: 5px;
+        background: none;
+        color: whitesmoke;
+        border: none;
+        outline: none;
+    }
+    .submitbtn{
+        font-size: large;
+        padding: 3px;
+    }
+    .submitbtn:hover{
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 20px;
     }
 }
 
@@ -44,10 +56,28 @@
     .enter_field {
         margin: 5px;
         padding: 10px;
-        font-size: x-large;
+        font-size: large;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: whitesmoke;
+        border-bottom: 2PX solid aqua;
+    }
+    .enter_field input{
+        padding: 10px;
+        background: none;
+        color: whitesmoke;
+        border: none;
+        outline: none;
+    }
+    .submitbtn{
+        font-size: x-large;
+        padding: 3px;
+    }
+    .submitbtn:hover{
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 20px;
     }
 }
 
@@ -55,9 +85,27 @@
     .enter_field {
         margin: 5px;
         padding: 10px;
-        font-size: xx-large;
+        font-size: x-large;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: whitesmoke;
+        border-bottom: 2PX solid aqua;
+    }
+    .enter_field input{
+        padding: 15px;
+        background: none;
+        color: whitesmoke;
+        border: none;
+        outline: none;
+    }
+    .submitbtn{
+        font-size: xx-large;
+        padding: 3px;
+    }
+    .submitbtn:hover{
+        box-sizing: border-box;
+        border: 2px solid yellow;
+        border-radius: 20px;
     }
 }
