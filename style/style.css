@@ -353,11 +353,11 @@ a:hover {
 }
 
 .shadowyellow {
-  box-shadow: 15px 15px 20px yellow;
+  box-shadow: 0px 0px 20px rgb(2, 241, 121);
 }
 
 .shadowgreen{
-  box-shadow: 10px 10px 30px rgb(118, 254, 195);
+  box-shadow: 0px 0px 40px rgb(235, 112, 4);
 }
 
 /* .bgskill{
