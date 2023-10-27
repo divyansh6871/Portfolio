@@ -352,6 +352,20 @@ a:hover {
   }
 }
 
+/* .becomelight{
+  animation: becominglight;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes becominglight {
+  0%{
+    opacity: 0.5;
+  }
+  100%{
+    opacity: 100%;
+  }
+} */
+
 .shadowyellow {
   box-shadow: 0px 0px 20px rgb(2, 241, 121);
 }
