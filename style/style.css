@@ -8,6 +8,13 @@ html {
   position: static;
 }
 
+.bg-nav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../photo/navbar_background.jpg);
+  z-index: 0.5;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
@@ -301,6 +308,7 @@ a:hover {
   animation: deepu;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  box-shadow: -10px 0 100px #4ef9c0;
 }
 
 @keyframes deepu {
